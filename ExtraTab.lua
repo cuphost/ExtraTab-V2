@@ -202,7 +202,7 @@ SendMessage(msg.chat_id,random,'md')
 end
 ----------- Stats -----------
 if ExtraTab == 'وضعیت' and is_sudo(msg) then
-             SendMessage(msg.chat_id,'• سوپرگروه •\n• '..SGP..' گروه •\n• '..GP..' پیوی •\n• '..U..' لینک های دریافتی •\n• '..Link..' وضعیت عضویت •\n• '..JOINING..,'md')
+             SendMessage(msg.chat_id,'• سوپرگروه •\n• '..SGP..' گروه •\n• '..GP..' پیوی •\n• '..U..' لینک های دریافتی •\n• '..Link..' وضعیت عضویت •\n• '..JOINING..'','md')
 end
 ---------- Forward ----------
 if ExtraTab and ExtraTab:match('^فوروارد (%d+)') and is_sudo(msg) then
